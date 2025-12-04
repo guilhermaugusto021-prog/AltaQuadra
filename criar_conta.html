@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Sua Conta - AltaQuadra</title>
+
+    <link rel="stylesheet" href="unocss.css">
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+</head>
+
+<body class="font-sans antialiased bg-white">
+
+    <header class="w-full fixed top-0 left-0 z-50">
+        <div class="bg-black text-white text-xs text-center py-2">
+            <p class="tracking-wide">Frete grátis em todos os pedidos acima de R$200! Por tempo limitado.</p>
+        </div>
+
+        <nav class="bg-white border-b border-gray-200 shadow-sm flex justify-between items-center px-4 md:px-8 py-3">
+            <div class="text-2xl font-bold text-black">
+                AltaQuadra
+            </div>
+            <div class="hidden md:flex space-x-6 text-base font-medium">
+                <a href="categoria.html#categoria" class="bg-[url('https://cdn-icons-png.freepik.com/512/8058/8058533.png')] w-10 h-10 bg-cover bg-center"></a>
+                <a href="#" class="bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIr3ctYDA6cE5herl0FezWN2My6AchX9SjQ&s')] w-10 h-10 bg-cover bg-center"></a>
+                <a href="carrinho.html#carrinho" class="bg-[url('https://static.vecteezy.com/ti/vetor-gratis/p1/554815-icone-de-de-carrinho-de-compras-gratis-vetor.jpg')] w-10 h-10 bg-cover bg-center"></a>
+
+            </div>
+
+            <div class="hidden md:flex space-x-6 text-sm text-gray-600">
+                <a href="login.html#login" class="bg-[url('https://static.vecteezy.com/ti/vetor-gratis/t1/7033146-perfil-icone-login-head-icon-vetor.jpg')] w-10 h-10 bg-cover bg-center"></a>
+                <a href="#" class="bg-[url('https://cdn-icons-png.flaticon.com/512/2331/2331099.png')] w-10 h-10 bg-cover bg-center"></a>
+                <a href="#" class="bg-[url('https://cdn-icons-png.flaticon.com/512/78/78925.png')] w-10 h-10 bg-cover bg-center"></a>
+            </div>
+            
+        </nav>
+    </header>
+<section id="criar" class="pt-40 px-4 md:px-10 max-w-7xl mx-auto"></section>
+
+<main id="criar" class="pt-32 px-4 md:px-8 max-w-lg mx-auto">
+    <div class="py-12 px-6">
+        <h1 class="text-3xl md:text-4xl font-extrabold mb-2 text-center">
+            Crie Sua Conta
+        </h1>
+        <p class="text-center text-gray-600 mb-8">
+            Crie sua conta inserindo seu endereço de e-mail e senha.
+        </p>
+
+        <button
+            class="w-full flex items-center justify-center border border-gray-300 bg-white text-black py-3 rounded-lg font-medium hover:bg-gray-50 mb-6">
+            <span class="i-mdi-google text-xl mr-2"></span>
+            Continue com Google
+        </button>
+
+        <div class="flex items-center mb-6">
+            <div class="flex-grow border-t border-gray-300"></div>
+            <span class="flex-shrink mx-4 text-gray-500 text-sm">Ou</span>
+            <div class="flex-grow border-t border-gray-300"></div>
+        </div>
+
+        <form action="#" method="POST">
+            <label for="email" class="block mb-4">
+                <span class="text-sm sr-only">Endereço de e-mail</span>
+                <div class="relative">
+                    <span class="i-mdi-email-outline absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 text-xl"></span>
+                    <input type="email" id="email" class="border w-full p-3 pl-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="email@address.com" required>
+                </div>
+            </label>
+
+            <label for="password" class="block mb-4">
+                <span class="text-sm sr-only">Senha</span>
+                <div class="relative">
+                    <span class="i-mdi-lock-outline absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 text-xl"></span>
+                    <input type="password" id="password" class="border w-full p-3 pl-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="••••••••" required>
+                </div>
+            </label>
+
+            <label class="flex items-center mb-8 text-sm text-gray-600">
+                <input type="checkbox" name="receive-news" class="w-4 h-4 text-red-600 border-gray-300 rounded focus:ring-red-500 mr-2">
+                Receber notícias, atualizações e ofertas
+            </label>
+
+            <button type="submit" class="bg-black text-white w-full py-3 rounded-lg font-bold uppercase tracking-wider hover:bg-gray-800 transition duration-150">
+                Criar Conta
+            </button>
+        </form>
+
+        <p class="text-xs text-center text-gray-500 mt-6 leading-relaxed">
+            Ao criar uma conta, você concorda com os 
+            <a href="#" class="underline hover:text-black">Termos de Serviço</a> e 
+            <a href="#" class="underline hover:text-black">Política de Privacidade</a>.
+        </p>
+
+        <p class="text-center text-sm text-gray-600 mt-8">
+            Já tem uma conta? 
+            <a href="login.html" class="underline font-medium text-black hover:text-red-600">Faça login aqui</a>
+        </p>
+    </div>
+
+</main>
+
+
+<footer class="bg-gray-800 text-white py-12 px-4 md:px-8 mt-20">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8 border-b border-gray-700 pb-8 mb-8">
+
+            <div>
+                <h4 class="font-semibold text-lg mb-3">Informações Corporativas</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-gray-300">Sobre Nós</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Marcas</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Afiliados</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Investidores</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Cookies</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-semibold text-lg mb-3">Cartão Presente</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-gray-300">Comprar Cartões</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Resgatar Cartão</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-semibold text-lg mb-3">Ajuda</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-gray-300">Fale Conosco</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Suporte ao Cliente</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Trocas e Garantia</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Pagamentos</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Envio</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-semibold text-lg mb-3">Legal</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-gray-300">Termos de Serviço</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Política de Privacidade</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-semibold text-lg mb-3">Localização</h4>
+                <p class="text-sm">Brasil</p>
+                <div class="text-3xl mt-4">🇧🇷</div>
+            </div>
+
+        </div>
+
+        <div class="flex justify-between items-center text-gray-400 text-sm">
+            <p>© 2025 AltaQuadra. Todos os direitos reservados.</p>
+            <div class="flex space-x-4 text-xl">
+                <div class="i-mdi-facebook hover:text-white"></div>
+                <div class="i-mdi-twitter hover:text-white"></div>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

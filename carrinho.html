@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - AltaQuadra</title>
+
+    <link rel="stylesheet" href="unocss.css">
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+</head>
+
+<body class="font-sans antialiased bg-white">
+
+<!-- HEADER -->
+<header class="w-full fixed top-0 left-0 z-50">
+    <div class="bg-black text-white text-xs text-center py-2">
+        Frete grátis em todos os pedidos acima de R$200! Por tempo limitado.
+    </div>
+
+    <nav class="bg-white border-b border-gray-200 shadow-sm flex justify-between items-center px-4 md:px-8 py-3">
+        <div class="text-2xl font-bold">AltaQuadra</div>
+
+        <ul class="hidden md:flex space-x-6 text-base font-medium">
+            <li><a href="#" class="hover:text-red-600">Produtos</a></li>
+            <li><a href="#" class="text-red-600 font-bold hover:text-black">Promoção</a></li>
+            <li><a href="#" class="hover:text-black">Inspiração</a></li>
+            <li><a href="#" class="hover:text-black">Marcas</a></li>
+            <li><a href="#" class="hover:text-black">Outlet</a></li>
+        </ul>
+
+        <ul class="hidden md:flex space-x-6 text-sm text-gray-600">
+            <li><a href="#" class="hover:text-black">Login</a></li>
+            <li><a href="#" class="hover:text-black">Envio, Trocas e Garantia</a></li>
+            <li><a href="#" class="hover:text-black">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="carrinho" class="pt-40 px-4 md:px-10 max-w-7xl mx-auto"></section>
+<main class="pt-28 px-4 md:px-8 max-w-6xl mx-auto">
+
+    <a href="index.html#home" class="text-sm text-gray-500 hover:text-black underline mb-6 inline-block">
+        Voltar para a Loja
+    </a>
+
+    <h1 class="text-3xl font-bold mb-10">Carrinho</h1>
+
+    <p class="text-gray-600 mb-10">
+        Os valores de envio e descontos serão aplicados na finalização da compra.
+    </p>
+
+    <!-- GRID PRINCIPAL: CARRINHO + RESUMO -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+        <!-- LISTA DE PRODUTOS -->
+        <div class="lg:col-span-2 space-y-8">
+
+            <!-- ITEM 1 -->
+            <div class="flex gap-6 border-b pb-6">
+               <div class="w-32 h-32 rounded-lg bg-center bg-contain bg-no-repeat bg-[url('https://tudosobreprodutos.com.br/img/bola-penalty-volei-pro-6-0-oficial.png')]"></div>
+
+
+                <div class="flex-1">
+                    <h3 class="font-semibold text-lg">Bola de Vôlei Penalty Pro 6.0</h3>
+                    <p class="text-sm text-gray-500">Cor: Branco/Laranja</p>
+
+                    <div class="flex items-center space-x-4 mt-3">
+                        <span class="text-xl font-bold">R$95</span>
+                        <span class="text-gray-400 line-through">R$119</span>
+                        <span class="text-green-600 font-semibold">-20%</span>
+                    </div>
+
+                    <p class="text-sm text-gray-500 mt-2">Envio: 2–4 semanas</p>
+                    <p class="text-sm text-green-600 font-medium">Você economiza 25%</p>
+                </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="flex gap-6 border-b pb-6">
+
+                <div class="w-32 h-32 rounded-lg bg-center bg-contain bg-no-repeat bg-[url('https://useconforto.com/cdn/shop/files/kit-tenis-de-volei-e-basquete-use0330-meia-profissional-use-conforto-2_800x.webp?v=1733179607')]"></div>
+
+                <div class="flex-1">
+                    <h3 class="font-semibold text-lg">Tênis Esportivo Performance X-Pro</h3>
+                    <p class="text-sm text-gray-500">Cor: Preto/Cinza <br> Tamanho: 44</p>
+
+                    <div class="flex items-center space-x-4 mt-3">
+                        <span class="text-xl font-bold">R$542</span>
+                    </div>
+
+                    <p class="text-sm text-gray-500 mt-2">Envio: 6 semanas</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RESUMO DO CARRINHO -->
+        <div class="border rounded-lg p-6 shadow-sm h-fit">
+
+            <h3 class="text-xl font-bold mb-6">Resumo</h3>
+
+            <div class="flex justify-between mb-2 text-sm">
+                <span>Itens no Carrinho</span>
+                <span>R$661,00</span>
+            </div>
+
+            <div class="flex justify-between mb-4 text-sm">
+                <span>Total</span>
+                <span class="font-bold">R$637,00</span>
+            </div>
+            <a href="checkout.html#checkout">
+            <button type="button" class="w-full bg-black text-white py-3 rounded-lg font-bold uppercase tracking-wide hover:bg-gray-800 mb-6">
+                Ir para o Checkout
+            </button>
+        </a>
+            <!-- CUPOM -->
+            <p class="font-medium mb-2 text-sm">Código de Desconto / Vale Presente</p>
+
+            <div class="flex mb-2">
+                <input type="text" class="border flex-1 p-2 rounded-l-lg" placeholder="DIGITE SEU CÓDIGO">
+                <button type="button" class="bg-black text-white px-4 rounded-r-lg font-bold hover:bg-gray-800">
+                    APLICAR
+                </button>
+            </div>
+
+            <p class="text-green-600 text-sm mb-4">Economia aplicada: R$25,00</p>
+
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <h4 class="font-bold text-sm mb-2">Compra Segura</h4>
+                <ul class="text-sm space-y-1 text-gray-700">
+                    <li>Devoluções gratuitas por 30 dias</li>
+                    <li>Pagamento seguro</li>
+                    <li>Entrega domiciliar ou ponto de retirada</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-gray-800 text-white py-12 px-4 md:px-8 mt-20">
+
+    <div class="max-w-6xl mx-auto">
+
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8 border-b border-gray-700 pb-8 mb-8">
+
+            <div>
+                <h4 class="font-bold mb-2 text-lg">Informações Corporativas</h4>
+                <ul class="text-sm space-y-2">
+                    <li><a href="#" class="hover:text-gray-300">Sobre Nós</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Marcas</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Afiliados</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Investidores</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Cookies</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold mb-2 text-lg">Cartão Presente</h4>
+                <ul class="text-sm space-y-2">
+                    <li><a href="#" class="hover:text-gray-300">Comprar Cartões</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Resgatar Cartão</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold mb-2 text-lg">Precisa de Ajuda?</h4>
+                <ul class="text-sm space-y-2">
+                    <li><a href="#" class="hover:text-gray-300">Fale Conosco</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Suporte ao Cliente</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Trocas e Garantia</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Pagamentos</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Envio</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold mb-2 text-lg">Legal</h4>
+                <ul class="text-sm space-y-2">
+                    <li><a href="#" class="hover:text-gray-300">Termos de Serviço</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Política de Privacidade</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold mb-2 text-lg">Localização</h4>
+                <p class="text-sm">Brasil</p>
+                <div class="mt-4 text-3xl">🇧🇷</div>
+            </div>
+
+        </div>
+
+        <div class="flex justify-between items-center text-sm text-gray-400">
+            <p>© 2025 AltaQuadra. Todos os direitos reservados.</p>
+            <div class="flex space-x-4 text-xl">
+                <div class="i-mdi-facebook hover:text-white"></div>
+                <div class="i-mdi-twitter hover:text-white"></div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
