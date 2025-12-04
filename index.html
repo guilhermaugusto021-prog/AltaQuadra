@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltaQuadra - Loja de Materiais Esportivos</title>
+    <link rel="stylesheet" href="unocss.css">
+    <style>
+        .hero-section {
+            background-image: url('img/hero-volei.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+
+</head>
+
+<body class="font-sans antialiased bg-white min-h-screen">
+
+    <header class="w-full fixed top-0 left-0 z-50">
+        <div class="bg-black text-white text-xs text-center py-2">
+            <p class="tracking-wide">Frete grátis em todos os pedidos acima de R$200! Por tempo limitado.</p>
+        </div>
+
+        <nav class="bg-white border-b border-gray-200 shadow-sm flex justify-between items-center px-4 md:px-8 py-3">
+            <div class="text-2xl font-bold text-black">
+                AltaQuadra
+            </div>
+
+            <div class="hidden md:flex items-center w-96 bg-gray-100 rounded-full px-4 py-2 transition-all duration-200
+            shadow-sm hover:shadow-md focus-within:(shadow-lg ring-2 ring-red-500)">
+
+    <input 
+        type="text" 
+        placeholder="Buscar produtos..." 
+        class="flex-1 bg-transparent outline-none text-gray-700 placeholder-gray-500"
+    >
+</div>
+            <div class="hidden md:flex space-x-6 text-base font-medium">
+                <a href="categoria.html#categoria" class="bg-[url('https://cdn-icons-png.freepik.com/512/8058/8058533.png')] w-10 h-10 bg-cover bg-center"></a>
+                <a href="#" class="bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIr3ctYDA6cE5herl0FezWN2My6AchX9SjQ&s')] w-10 h-10 bg-cover bg-center"></a>
+                <a href="carrinho.html#carrinho" class="bg-[url('https://static.vecteezy.com/ti/vetor-gratis/p1/554815-icone-de-de-carrinho-de-compras-gratis-vetor.jpg')] w-10 h-10 bg-cover bg-center"></a>
+
+            </div>
+
+            <div class="hidden md:flex space-x-6 text-sm text-gray-600">
+                <a href="login.html#login" class="bg-[url('https://static.vecteezy.com/ti/vetor-gratis/t1/7033146-perfil-icone-login-head-icon-vetor.jpg')] w-10 h-10 bg-cover bg-center"></a>
+                <a href="#" class="bg-[url('https://cdn-icons-png.flaticon.com/512/2331/2331099.png')] w-10 h-10 bg-cover bg-center"></a>
+                <a href="#" class="bg-[url('https://cdn-icons-png.flaticon.com/512/78/78925.png')] w-10 h-10 bg-cover bg-center"></a>
+            </div>
+            
+        </nav>
+    </header>
+    <section id="home" class="pt-40 px-4 md:px-10 max-w-7xl mx-auto"></section>
+    <main>
+        <section
+            class="hero-section pt-32 pb-16 h-120 bg-cover bg-center text-white flex flex-col justify-center items-center text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Seu ponto de partida para o melhor do Vôlei</h1>
+            <p class="text-lg md:text-xl max-w-xl mb-8">Tudo que você precisa para dominar as quadras.
+                Encontre bolas, uniformes e equipamentos com a performance que o seu jogo merece.</p>
+            <div class="flex space-x-4">
+                <a href="#"
+                    class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg uppercase tracking-wider">VER
+                    PROMOÇÕES</a>
+                <a href="#"
+                    class="bg-white hover:bg-gray-100 text-black font-bold py-3 px-8 rounded-lg shadow-lg uppercase tracking-wider">TODOS
+                    OS PRODUTOS</a>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 md:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-6 max-w-6xl mx-auto">
+                <div class="flex flex-col items-center p-4 bg-gray-100 rounded-lg text-center shadow-md">
+                    <div class="i-mdi-volleyball text-4xl text-blue-600 mb-2"></div>
+                    <h3 class="text-lg font-semibold mt-2">Mais Vendidos</h3>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-100 rounded-lg text-center shadow-md">
+                    <div class="i-mdi-fire text-4xl text-orange-600 mb-2"></div>
+                    <h3 class="text-lg font-semibold mt-2">Sazonal</h3>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-100 rounded-lg text-center shadow-md">
+                    <div class="i-mdi-tshirt-crew text-4xl text-purple-600 mb-2"></div>
+                    <h3 class="text-lg font-semibold mt-2">
+                        <a href="categoria.html#categoria"
+                            class="bg-red-600 text-white px-6 py-3 rounded-lg inline-block">Categoria</a>
+                    </h3>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-100 rounded-lg text-center shadow-md">
+                    <div class="i-mdi-tag-multiple text-4xl text-green-600 mb-2"></div>
+                    <h3 class="text-lg font-semibold mt-2">Outlet</h3>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-100 rounded-lg text-center shadow-md">
+                    <div class="i-mdi-alert-decagram text-4xl text-red-600 mb-2"></div>
+                    <h3 class="text-lg font-semibold text-red-600 mt-2">Novidades!</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 md:px-8 bg-gray-50">
+            <h2 class="text-3xl font-bold mb-8 text-center">PROMOÇÃO</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group">
+                    <a href="detalhes.html#detalhes">
+                        <div
+                            class="bg-[url('https://http2.mlstatic.com/D_NQ_NP_826270-MLC69496868847_052023-O.webp')] w-full h-64 bg-cover bg-center">
+                        </div>
+                        <div class="p-4 flex-grow">
+                            <h4 class="font-semibold text-lg mb-1">Joelheira Pro-Safe</h4>
+                            <p class="text-sm text-gray-500 mb-2">Cor: Branca <br> Tamanho: M</p>
+                        </div>
+                        <div class="p-4 pt-0">
+                            <span class="text-sm text-gray-500 line-through mr-2">R$95</span>
+                            <span class="text-xl font-bold text-red-600">R$76 (-20%)</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group">
+                    <div
+                        class="bg-[url('https://usevivazz.com/cdn/shop/files/Tenis-de-Basquete-Unissex-USE0301-Use-Conforto-59251495_38b096f1-e1e7-4008-8ace-ba20646b407d_1048x.jpg?v=1715289083')] w-full h-52 bg-cover bg-center">
+                    </div>
+                    <div class="p-4 flex-grow">
+                        <h4 class="font-semibold text-lg mb-1">Tênis de Vôlei AeroDunk</h4>
+                        <p class="text-sm text-gray-500 mb-2">Cor: Ciano/Rosa <br> Tamanho: 40</p>
+                    </div>
+                    <div class="p-4 pt-0">
+                        <span class="text-xl font-bold">R$289</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group">
+                    <div
+                        class="bg-[url('https://www.janeteartes.com/imagens/thumbs/Camisa-de-volei-feminino-olimpiadas-43126.webp')] w-full h-52 bg-cover bg-center">
+                    </div>
+                    <div class="p-4 flex-grow">
+                        <h4 class="font-semibold text-lg mb-1">Uniforme ProDry</h4>
+                        <p class="text-sm text-gray-500 mb-2">Cor: Branca/Vermelha <br> Tamanho: M</p>
+                    </div>
+                    <div class="p-4 pt-0">
+                        <span class="text-xl font-bold">R$150</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group">
+                    <div
+                        class="bg-[url('https://images.tcdn.com.br/img/img_prod/452589/bola_volei_mikasa_mva_200_1712_1_20180614144922.jpg')] w-full h-52 bg-cover bg-center">
+                    </div>
+                    <div class="p-4 flex-grow">
+                        <h4 class="font-semibold text-lg mb-1">Bola de Vôlei Mikasa MVA200</h4>
+                        <p class="text-sm text-gray-500 mb-2">Cor: Amarela/Azul </p>
+                    </div>
+                    <div class="p-4 pt-0">
+                        <span class="text-xl font-bold">R$125</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#"
+                class="bg-black hover:bg-gray-800 text-white font-bold py-3 px-6 mt-10 rounded-lg shadow-md uppercase tracking-wider block w-fit mx-auto">NAVEGAR
+                EM TODOS OS PRODUTOS</a>
+        </section>
+
+        <section class="py-14 px-3 md:px-6 bg-blue-400 text-white text-center">
+            <div class="max-w-4xl mx-auto">
+                <p class="text-xl font-medium">Caixa de Promoção</p>
+                <p class="text-xl font-medium">ATÉ</p>
+                <h2 class="text-7xl font-extrabold my-2">50%</h2>
+                <p class="text-2xl font-semibold mb-6">de desconto em produtos da Categoria</p>
+                <a href="#"
+                    class="bg-white hover:bg-gray-100 text-black font-bold py-3 px-8 rounded-lg shadow-lg uppercase tracking-wider inline-block">COMPRE
+                    AGORA</a>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 md:px-8">
+            <h2 class="text-3xl font-bold mb-8 text-center">Destaques de Categoria</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-6xl mx-auto">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-6">Categoria</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex flex-col">
+                            <div
+                                class="bg-[url('https://static.netshoes.com.br/produtos/manguito-curto-voleibol-arrow-muvin-par-volei-protecao-compressao-diversas-cores/06/B96-0402-006/B96-0402-006_zoom1.jpg?ts=1658916735&ims=544x')] w-full h-64 bg-cover bg-center">
+                            </div>
+                            <h4 class="font-semibold">Manguito Curto Voleibol Elite Muvin</h4>
+                            <p class="text-sm text-gray-500">Cor: Preto/Branco <br> Tamanho: P</p>
+                            <span class="font-bold">R$95</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <div
+                                class="bg-[url('https://static.netshoes.com.br/produtos/joelheira-volei-indoor-penalty/06/50D-2446-006/50D-2446-006_zoom1.jpg?ts=1677754158')] w-full h-64 bg-cover bg-center">
+                            </div>
+                            <h4 class="font-semibold">Joelheira de Vôlei Penalty</h4>
+                            <p class="text-sm text-gray-500">Cor: Preto <br> Tamanho: P</p>
+                            <span class="font-bold">R$95</span>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center bg-white p-4 rounded-lg">
+                        <p class="text-xl font-medium">ATÉ</p>
+                        <h4 class="text-5xl font-extrabold my-1 text-red-600">25%</h4>
+                        <p class="text-lg font-semibold mb-4">de desconto em produtos da Categoria</p>
+                        <a href="#"
+                            class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-6 rounded-lg uppercase tracking-wider inline-block">COMPRE
+                            AGORA</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-6">Outlet</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex flex-col">
+                            <div
+                                class="bg-[url('https://usevivazz.com/cdn/shop/files/tenis-de-volei-vivazz-grafite_1048x.webp?v=1715290132')] w-full h-64 bg-cover bg-center">
+                            </div>
+                            <h4 class="font-semibold">Tênis de Vôlei AeroDunk</h4>
+                            <p class="text-sm text-gray-500">Cor: Branco/Ciano/laranja <br> Tamanho: 40</p>
+                            <span class="font-bold">R$95</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <div
+                                class="bg-[url('https://down-br.img.susercontent.com/file/br-11134207-81z1k-mdyybrmcs0774a')] w-full h-64 bg-cover bg-center">
+                            </div>
+                            <h4 class="font-semibold">Camiseta esportiva Dry Fit</h4>
+                            <p class="text-sm text-gray-500">Cor: Branca/Azul <br> Tamanho: M</p>
+                            <span class="font-bold">R$95</span>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center bg-white p-4 rounded-lg">
+                        <p class="text-xl font-medium">ATÉ</p>
+                        <h4 class="text-5xl font-extrabold my-1 text-red-600">50%</h4>
+                        <p class="text-lg font-semibold mb-4">de desconto em todos os produtos</p>
+                        <a href="#"
+                            class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-6 rounded-lg uppercase tracking-wider inline-block">COMPRE
+                            AGORA</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 px-4 md:px-8 bg-yellow-400 text-black text-center">
+            <div class="max-w-lg mx-auto">
+                <h3 class="text-xl font-bold mb-2">Garanta um desconto extra de 5%</h3>
+                <p class="text-base mb-6">Receba as últimas novidades e ofertas especiais diretamente na sua caixa de
+                    entrada.</p>
+                <form class="flex justify-center">
+                    <input type="email" placeholder="endereço de email"
+                        class="flex-grow p-3 border border-gray-300 rounded-l-lg focus:outline-none">
+                    <button type="submit"
+                        class="bg-black hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-r-lg uppercase tracking-wider">ASSINAR</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 md:px-8 bg-white">
+            <h2 class="text-3xl font-bold mb-8 text-center">Nossa Avaliação</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
+                    <p class="text-yellow-500 text-2xl mb-2">★★★★★</p>
+                    <h4 class="font-semibold text-lg mb-1">Ótimo custo-benefício e qualidade</h4>
+                    <p class="text-sm text-gray-600">Bola perfeita para treinos intensos! A durabilidade é surpreendente
+                        e a costura aguentou bem. Chegou muito rápido. Recomendo!</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
+                    <p class="text-yellow-500 text-2xl mb-2">★★★★★</p>
+                    <h4 class="font-semibold text-lg mb-1">Design lindo!</h4>
+                    <p class="text-sm text-gray-600">A camisa tem um caimento excelente e as cores são vibrantes. Usei
+                        no jogo e todos perguntaram onde comprei. Qualidade nota 10!</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
+                    <p class="text-yellow-500 text-2xl mb-2">★★★★★</p>
+                    <h4 class="font-semibold text-lg mb-1">Exatamente o que eu queria</h4>
+                    <p class="text-sm text-gray-600">As joelheiras são confortáveis e não escorregam. Deram a segurança
+                        que eu precisava para os mergulhos. Comprarei novamente na loja!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12 px-4 md:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-8 border-b border-gray-700 pb-8 mb-8">
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Informações Corporativas</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-sm hover:text-gray-300">Sobre Nós</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Marcas</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Afiliados</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Investidores</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Cookies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Cartão Presente</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-sm hover:text-gray-300">Comprar Cartões</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Resgatar Cartão</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Precisa de ajuda?</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-sm hover:text-gray-300">Fale Conosco</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Suporte ao Cliente</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Trocas e Garantia</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Pagamentos</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Envio</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-sm hover:text-gray-300">Termos de Serviço</a></li>
+                        <li><a href="#" class="text-sm hover:text-gray-300">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Localização</h4>
+                    <p class="text-sm">Brasil</p>
+                    <div class="mt-4 text-3xl">🇧🇷</div>
+                </div>
+            </div>
+            <div class="flex justify-between items-center pt-4 text-sm text-gray-500">
+                <p>&copy; 2025 AltaQuadra. Todos os direitos reservados.</p>
+                <div class="flex space-x-4 text-2xl">
+                    <div class="i-mdi-facebook text-gray-400 hover:text-white"></div>
+                    <div class="i-mdi-twitter text-gray-400 hover:text-white"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
